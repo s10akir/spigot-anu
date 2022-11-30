@@ -1,4 +1,4 @@
-name: spigot-plugin-boilerplate
+name: spigot-anu
 version: 1.0-SNAPSHOT
-main: cloud.mojamoja.spigot_plugin_boilerplate.SpigotPluginBoilerplate
+main: cloud.mojamoja.spigot_anu.SpigotAnu
 api-version: 1.19

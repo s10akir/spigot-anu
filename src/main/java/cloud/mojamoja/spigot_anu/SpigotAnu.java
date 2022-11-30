@@ -1,8 +1,8 @@
-package cloud.mojamoja.spigot_plugin_boilerplate;
+package cloud.mojamoja.spigot_anu;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class SpigotPluginBoilerplate extends JavaPlugin {
+public class SpigotAnu extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("Activate.");

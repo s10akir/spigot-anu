@@ -1,4 +1,4 @@
-# spigot-plugin-boilerplate
+# spigot-anu
 
 ## required
 
