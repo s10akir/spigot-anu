@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'cloud.mojamoja'
+version '1.0-SNAPSHOT'
+
+jar {
+    baseName 'spigot-plugin-boilerplate'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://hub.spigotmc.org/nexus/content/repositories/snapshots"
+    }
+}
+
+dependencies {
+    compileOnly "org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT"
+}
+
+task copyPlugin(dependsOn: ['build'], type: Copy) {
+    from "${buildDir}/libs"
+    into "data/plugins"
+}
